@@ -1,0 +1,23 @@
+project:
+  type: book
+
+book:
+  title: "Learning R with R for Data Science (2nd ed.)"
+  author: "Peter Baumgartner"
+  date: "3/24/2023"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
